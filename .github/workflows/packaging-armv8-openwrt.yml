@@ -6,9 +6,9 @@ on:
       source_repo:
         description: '选择要打包的LUCI版本'
         required: true
-        default: '18.06'
+        default: 'LEDE'
         type: choice
-        options: [18.06, 23.05]
+        options: [LEDE, IMM]
 
       script_repo:
         description: '选择打包脚本储存库'
