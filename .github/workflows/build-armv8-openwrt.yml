@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       source:
-        description: '选择要编译的LUCI版本'
+        description: '选择要编译的固件'
         required: true
-        default: '18.06'
+        default: 'LEDE'
         type: choice
         options: [LEDE, IMM]
 
