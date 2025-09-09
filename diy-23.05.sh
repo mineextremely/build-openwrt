@@ -247,6 +247,7 @@ git_clone https://github.com/sbwml/packages_lang_golang golang
 clone_all https://github.com/linkease/istore-ui
 clone_all https://github.com/linkease/istore luci
 
+clone_all https://github.com/sirpdboy/luci-app-advancedplus
 clone_all https://github.com/brvphoenix/luci-app-wrtbwmon
 clone_all https://github.com/brvphoenix/wrtbwmon
 
@@ -261,7 +262,8 @@ clone_dir https://github.com/sbwml/openwrt_helloworld shadowsocks-rust
 # Themes
 git_clone https://github.com/kiddin9/luci-theme-edge
 git_clone https://github.com/jerrykuku/luci-theme-argon
-git_clone https://github.com/jerrykuku/luci-app-argon-config
+git_clone https://github.com/sirpdboy/luci-theme-kucat
+#git_clone https://github.com/jerrykuku/luci-app-argon-config
 
 # 晶晨宝盒
 clone_all https://github.com/ophub/luci-app-amlogic
