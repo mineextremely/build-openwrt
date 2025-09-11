@@ -11,7 +11,7 @@ on:
         required: true
         default: 'LEDE'
         type: choice
-        options: [LEDE, IMM]
+        options: [LEDE, IMM, ISTO]
 
       ip:
         description: '设置默认登录IP'
